@@ -16,6 +16,12 @@
 		2FBACBE11CC077E800D5A322 /* MBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBE01CC077E800D5A322 /* MBMessageViewController.m */; };
 		2FBACBE41CC0781000D5A322 /* MBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBE31CC0781000D5A322 /* MBMineViewController.m */; };
 		2FBACBE71CC0782F00D5A322 /* MBDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBE61CC0782F00D5A322 /* MBDiscoveryViewController.m */; };
+		2FBACBEA1CC07E8400D5A322 /* MBHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBE91CC07E8400D5A322 /* MBHomeNavigationController.m */; };
+		2FBACBED1CC07E9E00D5A322 /* MBMessageNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBEC1CC07E9E00D5A322 /* MBMessageNavigationController.m */; };
+		2FBACBF01CC07EB000D5A322 /* MBDicoveryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBEF1CC07EB000D5A322 /* MBDicoveryNavigationController.m */; };
+		2FBACBF31CC07EC300D5A322 /* MBMineNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBF21CC07EC300D5A322 /* MBMineNavigationController.m */; };
+		2FBACBF61CC083A000D5A322 /* MBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBACBF51CC083A000D5A322 /* MBTabBar.m */; };
+		2FBBEAD01CC094DF0091731B /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBEACF1CC094DF0091731B /* UIImage+Render.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,19 @@
 		2FBACBE31CC0781000D5A322 /* MBMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMineViewController.m; sourceTree = "<group>"; };
 		2FBACBE51CC0782F00D5A322 /* MBDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDiscoveryViewController.h; sourceTree = "<group>"; };
 		2FBACBE61CC0782F00D5A322 /* MBDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDiscoveryViewController.m; sourceTree = "<group>"; };
+		2FBACBE81CC07E8400D5A322 /* MBHomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHomeNavigationController.h; sourceTree = "<group>"; };
+		2FBACBE91CC07E8400D5A322 /* MBHomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBHomeNavigationController.m; sourceTree = "<group>"; };
+		2FBACBEB1CC07E9E00D5A322 /* MBMessageNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMessageNavigationController.h; sourceTree = "<group>"; };
+		2FBACBEC1CC07E9E00D5A322 /* MBMessageNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMessageNavigationController.m; sourceTree = "<group>"; };
+		2FBACBEE1CC07EB000D5A322 /* MBDicoveryNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBDicoveryNavigationController.h; sourceTree = "<group>"; };
+		2FBACBEF1CC07EB000D5A322 /* MBDicoveryNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBDicoveryNavigationController.m; sourceTree = "<group>"; };
+		2FBACBF11CC07EC300D5A322 /* MBMineNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMineNavigationController.h; sourceTree = "<group>"; };
+		2FBACBF21CC07EC300D5A322 /* MBMineNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMineNavigationController.m; sourceTree = "<group>"; };
+		2FBACBF41CC083A000D5A322 /* MBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBar.h; sourceTree = "<group>"; };
+		2FBACBF51CC083A000D5A322 /* MBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBar.m; sourceTree = "<group>"; };
+		2FBBEACE1CC094DF0091731B /* UIImage+Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
+		2FBBEACF1CC094DF0091731B /* UIImage+Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
+		2FE48D9B1CC0979A00D3C404 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +178,8 @@
 		2FBACBC61CC075EF00D5A322 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				2FBBEACE1CC094DF0091731B /* UIImage+Render.h */,
+				2FBBEACF1CC094DF0091731B /* UIImage+Render.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -178,6 +199,14 @@
 			children = (
 				2FBACBD91CC0770400D5A322 /* MBTabBarController.h */,
 				2FBACBDA1CC0770400D5A322 /* MBTabBarController.m */,
+				2FBACBE81CC07E8400D5A322 /* MBHomeNavigationController.h */,
+				2FBACBE91CC07E8400D5A322 /* MBHomeNavigationController.m */,
+				2FBACBEB1CC07E9E00D5A322 /* MBMessageNavigationController.h */,
+				2FBACBEC1CC07E9E00D5A322 /* MBMessageNavigationController.m */,
+				2FBACBEE1CC07EB000D5A322 /* MBDicoveryNavigationController.h */,
+				2FBACBEF1CC07EB000D5A322 /* MBDicoveryNavigationController.m */,
+				2FBACBF11CC07EC300D5A322 /* MBMineNavigationController.h */,
+				2FBACBF21CC07EC300D5A322 /* MBMineNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +221,8 @@
 		2FBACBCA1CC075EF00D5A322 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2FBACBF41CC083A000D5A322 /* MBTabBar.h */,
+				2FBACBF51CC083A000D5A322 /* MBTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +299,7 @@
 				2FBACBD41CC075EF00D5A322 /* AppDelegate.h */,
 				2FBACBD51CC075EF00D5A322 /* AppDelegate.m */,
 				2FBACBD61CC075EF00D5A322 /* main.m */,
+				2FE48D9B1CC0979A00D3C404 /* PrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -342,13 +374,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FBACBF01CC07EB000D5A322 /* MBDicoveryNavigationController.m in Sources */,
 				2FBACBE11CC077E800D5A322 /* MBMessageViewController.m in Sources */,
 				2FBACBE71CC0782F00D5A322 /* MBDiscoveryViewController.m in Sources */,
 				2FBACBDE1CC077A900D5A322 /* MBHomeViewController.m in Sources */,
+				2FBACBF61CC083A000D5A322 /* MBTabBar.m in Sources */,
+				2FBACBEA1CC07E8400D5A322 /* MBHomeNavigationController.m in Sources */,
 				2FBACBE41CC0781000D5A322 /* MBMineViewController.m in Sources */,
 				2FBACBD81CC075EF00D5A322 /* main.m in Sources */,
 				2FBACBD71CC075EF00D5A322 /* AppDelegate.m in Sources */,
 				2FBACBDB1CC0770400D5A322 /* MBTabBarController.m in Sources */,
+				2FBBEAD01CC094DF0091731B /* UIImage+Render.m in Sources */,
+				2FBACBF31CC07EC300D5A322 /* MBMineNavigationController.m in Sources */,
+				2FBACBED1CC07E9E00D5A322 /* MBMessageNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Microblog/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = Microblog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,6 +504,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Microblog/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = Microblog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
