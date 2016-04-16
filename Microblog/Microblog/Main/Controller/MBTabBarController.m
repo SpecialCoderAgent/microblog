@@ -16,6 +16,7 @@
 #import "MBDiscoveryViewController.h"
 #import "MBMessageViewController.h"
 #import "MBMineViewController.h"
+#import "MBLoginViewController.h"
 
 @interface MBTabBarController ()<UITabBarDelegate>
 
@@ -28,11 +29,23 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
+   
     [self addAllChildViewController];
     
     self.tabBar.tintColor = [UIColor orangeColor];
     
     
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    BOOL login = NO;
+    
+    if (!login) {
+        MBLoginViewController *loginVC = [[MBLoginViewController alloc]init];
+        [self presentViewController:loginVC animated:YES completion:^{
+            
+        }];
+    }
 }
 
 

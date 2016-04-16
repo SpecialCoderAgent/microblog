@@ -8,6 +8,15 @@
 
 #import "MBMessageNavigationController.h"
 
+@interface MBMessageNavigationController ()
+
+@end
+
 @implementation MBMessageNavigationController
+
+
+- (void)viewDidLoad {
+    self.view.tintColor = [UIColor blackColor];
+}
 
 @end
