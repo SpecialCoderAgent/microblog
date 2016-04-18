@@ -18,6 +18,7 @@
 #import "MBMineViewController.h"
 #import "MBLoginViewController.h"
 
+#import <objc/message.h>
 @interface MBTabBarController ()<UITabBarDelegate>
 
 
@@ -29,7 +30,9 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     
+    
    
+    
     [self addAllChildViewController];
     
     self.tabBar.tintColor = [UIColor orangeColor];
